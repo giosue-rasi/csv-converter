@@ -11,7 +11,7 @@ simple terminal command!
 ## HOW TO USE IT
 Once installed, put the file you want to convert inside of the "Input" folder
 and then start the conversion with your terminal like this:
-`./csvconverter input_file.csv output_file current_separator new_separator`
+`./csvconverter input_file.csv output_file_name current_separator new_separator`
 
 You'll find the converted file in the "Output" folder!
 
@@ -20,12 +20,12 @@ You'll find the converted file in the "Output" folder!
 The Csv Converter takes a minimum of three and a maximum of 4 parameters
 
 - The first one is the file you want to convert, complete of the .csv extension
-  `e.g. NameOfYourFile.csv`
+  `e.g. input_file.csv`
   It can't be omitted, obviously.
 
 - The second one is the name of the output file, which doesn't have to be
   complete of the .csv extension
-  `e.g. NameOfYourOutput OR NameOfYourOutput.csv`
+  `e.g. output_file_name OR output_file_name.csv`
   This parameter is optional, if you don't specify an output the program will
   save the conversion in a file called "converted.csv"
 
