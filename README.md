@@ -35,13 +35,11 @@ The Csv Converter takes a minimum of three and a maximum of 4 parameters
 
 
 ## SOURCES
-Csv Documentation - https://datatracker.ietf.org/doc/html/rfc4180#ref-2
+Csv Documentation - https://datatracker.ietf.org/doc/html/rfc4180
 
 
 ## THINGS TO CONSIDER
-- Spaces are considered part of a field
-
-- Fields containing line breaks (CRLF), double quotes, and commas
+- Fields containing line breaks (CRLF), double quotes, spaces, and commas
   should be enclosed in double-quotes.
 
 - If fields are not enclosed with double quotes, then double quotes may not
@@ -56,6 +54,6 @@ Csv Documentation - https://datatracker.ietf.org/doc/html/rfc4180#ref-2
 
 ## FORMAT EXAMPLE:
     [field_name,field_name,field_name CRLF]
-    "a""aa","bb CRLF
+    "a""a""a","bb CRLF
     b","ccc" CRLF
     zzz,yyy,xxx [CRLF]
